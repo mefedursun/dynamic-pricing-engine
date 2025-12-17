@@ -40,11 +40,14 @@ Thumbs.db
 Desktop.ini
 
 # Project specific
-# output/
 *.png
 *.jpg
 *.jpeg
 *.gif
+
+# İstisna: output klasöründeki grafikleri yasaklama!
+!output/
+!output/*.png
 
 # Jupyter
 .ipynb_checkpoints/
